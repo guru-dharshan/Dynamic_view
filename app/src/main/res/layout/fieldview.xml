@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="20dp"
+    app:cardBackgroundColor="#BBD6F2">
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@null"
+        android:textColor="#025373"
+        android:textColorHint="#292828"
+        android:hint="name"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="220dp"
+        android:background="@null"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#292828"
+        android:textColor="#025373"
+
+        android:hint="age"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="330dp"
+        android:id="@+id/remove"
+        android:src="@drawable/ic_baseline_close_24"
+        android:layout_marginTop="20dp"/>
+
+</androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
